@@ -1,0 +1,791 @@
+{
+  "summary": {
+    "total_loans": 1253,
+    "total_amount": 37664000,
+    "total_disbursement": 33219648,
+    "total_repayment": 45196800,
+    "total_interest": 7532800,
+    "avg_loan_amount": 30059,
+    "avg_roi": 20,
+    "unique_branches": 29,
+    "branches": [
+      "UNNAO",
+      "LUCKNOW",
+      "AGRA",
+      "PANCHSHEEL PARK",
+      "KANPUR",
+      "VARANASI",
+      "HATHRAS",
+      "MEERUT",
+      "BAREILLY",
+      "ALIGARH",
+      "SHAMLI",
+      "MORADABAD",
+      "MOHALI",
+      "BULANDSHAHR",
+      "SAHARANPUR",
+      "MATHURA",
+      "HARDOI",
+      "UTTAM NAGAR",
+      "HATHRAS ",
+      "LUCKNOW ",
+      "KANPUR ",
+      "ALIGARH ",
+      "HARDOI ",
+      "SAHARANPUR ",
+      "BAREILY",
+      "UNNAO ",
+      "SHAMLI ",
+      "BULANDSHAHR ",
+      "VARANASI "
+    ],
+    "date_range": {
+      "start": "2025-03-20",
+      "end": "2025-07-12"
+    },
+    "analysis_date": "2025-08-27T12:33:34.317Z"
+  },
+  "monthly_disbursements": [
+    {
+      "month": "2025-07",
+      "month_name": "July 2025",
+      "total_loans": 155,
+      "total_amount": 4226000,
+      "total_disbursement": 3727332,
+      "total_repayment": 5071200,
+      "total_interest": 845200,
+      "avg_loan_amount": 27265,
+      "avg_installment": 2337,
+      "branch_count": 21
+    },
+    {
+      "month": "2025-06",
+      "month_name": "June 2025",
+      "total_loans": 400,
+      "total_amount": 11890000,
+      "total_disbursement": 10486980,
+      "total_repayment": 14268000,
+      "total_interest": 2378000,
+      "avg_loan_amount": 29725,
+      "avg_installment": 2548,
+      "branch_count": 23
+    },
+    {
+      "month": "2025-05",
+      "month_name": "May 2025",
+      "total_loans": 470,
+      "total_amount": 13707000,
+      "total_disbursement": 12089574,
+      "total_repayment": 16448400,
+      "total_interest": 2741400,
+      "avg_loan_amount": 29164,
+      "avg_installment": 2500,
+      "branch_count": 16
+    },
+    {
+      "month": "2025-04",
+      "month_name": "April 2025",
+      "total_loans": 196,
+      "total_amount": 5776000,
+      "total_disbursement": 5094432,
+      "total_repayment": 6931200,
+      "total_interest": 1155200,
+      "avg_loan_amount": 29469,
+      "avg_installment": 2526,
+      "branch_count": 17
+    },
+    {
+      "month": "2025-03",
+      "month_name": "March 2025",
+      "total_loans": 32,
+      "total_amount": 2065000,
+      "total_disbursement": 1821330,
+      "total_repayment": 2478000,
+      "total_interest": 413000,
+      "avg_loan_amount": 64531,
+      "avg_installment": 5531,
+      "branch_count": 11
+    }
+  ],
+  "daily_disbursements": [
+    {
+      "date": "2025-07-12",
+      "date_formatted": "July 12, 2025",
+      "day_name": "Saturday",
+      "total_loans": 9,
+      "total_amount": 228000,
+      "total_disbursement": 201096,
+      "total_repayment": 273600,
+      "branch_count": 5
+    },
+    {
+      "date": "2025-07-11",
+      "date_formatted": "July 11, 2025",
+      "day_name": "Friday",
+      "total_loans": 16,
+      "total_amount": 405000,
+      "total_disbursement": 357210,
+      "total_repayment": 486000,
+      "branch_count": 11
+    },
+    {
+      "date": "2025-07-10",
+      "date_formatted": "July 10, 2025",
+      "day_name": "Thursday",
+      "total_loans": 10,
+      "total_amount": 255000,
+      "total_disbursement": 224910,
+      "total_repayment": 306000,
+      "branch_count": 8
+    },
+    {
+      "date": "2025-07-09",
+      "date_formatted": "July 9, 2025",
+      "day_name": "Wednesday",
+      "total_loans": 10,
+      "total_amount": 275000,
+      "total_disbursement": 242550,
+      "total_repayment": 330000,
+      "branch_count": 6
+    },
+    {
+      "date": "2025-07-08",
+      "date_formatted": "July 8, 2025",
+      "day_name": "Tuesday",
+      "total_loans": 14,
+      "total_amount": 383000,
+      "total_disbursement": 337806,
+      "total_repayment": 459600,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-07-07",
+      "date_formatted": "July 7, 2025",
+      "day_name": "Monday",
+      "total_loans": 21,
+      "total_amount": 552000,
+      "total_disbursement": 486864,
+      "total_repayment": 662400,
+      "branch_count": 12
+    },
+    {
+      "date": "2025-07-05",
+      "date_formatted": "July 5, 2025",
+      "day_name": "Saturday",
+      "total_loans": 16,
+      "total_amount": 453000,
+      "total_disbursement": 399546,
+      "total_repayment": 543600,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-07-04",
+      "date_formatted": "July 4, 2025",
+      "day_name": "Friday",
+      "total_loans": 17,
+      "total_amount": 551000,
+      "total_disbursement": 485982,
+      "total_repayment": 661200,
+      "branch_count": 11
+    },
+    {
+      "date": "2025-07-03",
+      "date_formatted": "July 3, 2025",
+      "day_name": "Thursday",
+      "total_loans": 24,
+      "total_amount": 636000,
+      "total_disbursement": 560952,
+      "total_repayment": 763200,
+      "branch_count": 13
+    },
+    {
+      "date": "2025-07-02",
+      "date_formatted": "July 2, 2025",
+      "day_name": "Wednesday",
+      "total_loans": 18,
+      "total_amount": 488000,
+      "total_disbursement": 430416,
+      "total_repayment": 585600,
+      "branch_count": 12
+    },
+    {
+      "date": "2025-06-30",
+      "date_formatted": "June 30, 2025",
+      "day_name": "Monday",
+      "total_loans": 28,
+      "total_amount": 725000,
+      "total_disbursement": 639450,
+      "total_repayment": 870000,
+      "branch_count": 14
+    },
+    {
+      "date": "2025-06-28",
+      "date_formatted": "June 28, 2025",
+      "day_name": "Saturday",
+      "total_loans": 11,
+      "total_amount": 313000,
+      "total_disbursement": 276066,
+      "total_repayment": 375600,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-06-27",
+      "date_formatted": "June 27, 2025",
+      "day_name": "Friday",
+      "total_loans": 19,
+      "total_amount": 468000,
+      "total_disbursement": 412776,
+      "total_repayment": 561600,
+      "branch_count": 12
+    },
+    {
+      "date": "2025-06-26",
+      "date_formatted": "June 26, 2025",
+      "day_name": "Thursday",
+      "total_loans": 26,
+      "total_amount": 663000,
+      "total_disbursement": 584766,
+      "total_repayment": 795600,
+      "branch_count": 14
+    },
+    {
+      "date": "2025-06-25",
+      "date_formatted": "June 25, 2025",
+      "day_name": "Wednesday",
+      "total_loans": 29,
+      "total_amount": 1538000,
+      "total_disbursement": 1356516,
+      "total_repayment": 1845600,
+      "branch_count": 13
+    },
+    {
+      "date": "2025-06-24",
+      "date_formatted": "June 24, 2025",
+      "day_name": "Tuesday",
+      "total_loans": 12,
+      "total_amount": 350000,
+      "total_disbursement": 308700,
+      "total_repayment": 420000,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-06-23",
+      "date_formatted": "June 23, 2025",
+      "day_name": "Monday",
+      "total_loans": 25,
+      "total_amount": 651000,
+      "total_disbursement": 574182,
+      "total_repayment": 781200,
+      "branch_count": 12
+    },
+    {
+      "date": "2025-06-21",
+      "date_formatted": "June 21, 2025",
+      "day_name": "Saturday",
+      "total_loans": 14,
+      "total_amount": 398000,
+      "total_disbursement": 351036,
+      "total_repayment": 477600,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-20",
+      "date_formatted": "June 20, 2025",
+      "day_name": "Friday",
+      "total_loans": 18,
+      "total_amount": 499000,
+      "total_disbursement": 440118,
+      "total_repayment": 598800,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-06-19",
+      "date_formatted": "June 19, 2025",
+      "day_name": "Thursday",
+      "total_loans": 16,
+      "total_amount": 473000,
+      "total_disbursement": 417186,
+      "total_repayment": 567600,
+      "branch_count": 11
+    },
+    {
+      "date": "2025-06-18",
+      "date_formatted": "June 18, 2025",
+      "day_name": "Wednesday",
+      "total_loans": 14,
+      "total_amount": 353000,
+      "total_disbursement": 311346,
+      "total_repayment": 423600,
+      "branch_count": 11
+    },
+    {
+      "date": "2025-06-17",
+      "date_formatted": "June 17, 2025",
+      "day_name": "Tuesday",
+      "total_loans": 17,
+      "total_amount": 413000,
+      "total_disbursement": 364266,
+      "total_repayment": 495600,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-16",
+      "date_formatted": "June 16, 2025",
+      "day_name": "Monday",
+      "total_loans": 12,
+      "total_amount": 868000,
+      "total_disbursement": 765576,
+      "total_repayment": 1041600,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-14",
+      "date_formatted": "June 14, 2025",
+      "day_name": "Saturday",
+      "total_loans": 15,
+      "total_amount": 360000,
+      "total_disbursement": 317520,
+      "total_repayment": 432000,
+      "branch_count": 12
+    },
+    {
+      "date": "2025-06-13",
+      "date_formatted": "June 13, 2025",
+      "day_name": "Friday",
+      "total_loans": 15,
+      "total_amount": 370000,
+      "total_disbursement": 326340,
+      "total_repayment": 444000,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-12",
+      "date_formatted": "June 12, 2025",
+      "day_name": "Thursday",
+      "total_loans": 17,
+      "total_amount": 420000,
+      "total_disbursement": 370440,
+      "total_repayment": 504000,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-11",
+      "date_formatted": "June 11, 2025",
+      "day_name": "Wednesday",
+      "total_loans": 16,
+      "total_amount": 415000,
+      "total_disbursement": 366030,
+      "total_repayment": 498000,
+      "branch_count": 10
+    },
+    {
+      "date": "2025-06-10",
+      "date_formatted": "June 10, 2025",
+      "day_name": "Tuesday",
+      "total_loans": 14,
+      "total_amount": 453000,
+      "total_disbursement": 399546,
+      "total_repayment": 543600,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-06-09",
+      "date_formatted": "June 9, 2025",
+      "day_name": "Monday",
+      "total_loans": 12,
+      "total_amount": 290000,
+      "total_disbursement": 255780,
+      "total_repayment": 348000,
+      "branch_count": 9
+    },
+    {
+      "date": "2025-06-06",
+      "date_formatted": "June 6, 2025",
+      "day_name": "Friday",
+      "total_loans": 20,
+      "total_amount": 570000,
+      "total_disbursement": 502740,
+      "total_repayment": 684000,
+      "branch_count": 9
+    }
+  ],
+  "branch_performance": [
+    {
+      "branch": "KANPUR",
+      "total_loans": 215,
+      "total_amount": 6076000,
+      "total_disbursement": 5359032,
+      "total_repayment": 7291200,
+      "total_interest": 1215200,
+      "avg_loan_amount": 28260,
+      "first_disbursement": "2025-03-22",
+      "last_disbursement": "2025-07-12"
+    },
+    {
+      "branch": "SAHARANPUR",
+      "total_loans": 146,
+      "total_amount": 4350000,
+      "total_disbursement": 3836700,
+      "total_repayment": 5220000,
+      "total_interest": 870000,
+      "avg_loan_amount": 29795,
+      "first_disbursement": "2025-04-08",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "MEERUT",
+      "total_loans": 124,
+      "total_amount": 3619000,
+      "total_disbursement": 3191958,
+      "total_repayment": 4342800,
+      "total_interest": 723800,
+      "avg_loan_amount": 29185,
+      "first_disbursement": "2025-03-25",
+      "last_disbursement": "2025-07-10"
+    },
+    {
+      "branch": "PANCHSHEEL PARK",
+      "total_loans": 6,
+      "total_amount": 2650000,
+      "total_disbursement": 2337300,
+      "total_repayment": 3180000,
+      "total_interest": 530000,
+      "avg_loan_amount": 441667,
+      "first_disbursement": "2025-03-21",
+      "last_disbursement": "2025-06-25"
+    },
+    {
+      "branch": "VARANASI",
+      "total_loans": 90,
+      "total_amount": 2527000,
+      "total_disbursement": 2228814,
+      "total_repayment": 3032400,
+      "total_interest": 505400,
+      "avg_loan_amount": 28078,
+      "first_disbursement": "2025-03-22",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "UNNAO",
+      "total_loans": 92,
+      "total_amount": 2430000,
+      "total_disbursement": 2143260,
+      "total_repayment": 2916000,
+      "total_interest": 486000,
+      "avg_loan_amount": 26413,
+      "first_disbursement": "2025-03-20",
+      "last_disbursement": "2025-07-12"
+    },
+    {
+      "branch": "AGRA",
+      "total_loans": 97,
+      "total_amount": 2180000,
+      "total_disbursement": 1922760,
+      "total_repayment": 2616000,
+      "total_interest": 436000,
+      "avg_loan_amount": 22474,
+      "first_disbursement": "2025-03-20",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "HATHRAS",
+      "total_loans": 85,
+      "total_amount": 2065000,
+      "total_disbursement": 1821330,
+      "total_repayment": 2478000,
+      "total_interest": 413000,
+      "avg_loan_amount": 24294,
+      "first_disbursement": "2025-03-24",
+      "last_disbursement": "2025-07-12"
+    },
+    {
+      "branch": "LUCKNOW",
+      "total_loans": 58,
+      "total_amount": 1665000,
+      "total_disbursement": 1468530,
+      "total_repayment": 1998000,
+      "total_interest": 333000,
+      "avg_loan_amount": 28707,
+      "first_disbursement": "2025-03-20",
+      "last_disbursement": "2025-07-04"
+    },
+    {
+      "branch": "BAREILLY",
+      "total_loans": 61,
+      "total_amount": 1579000,
+      "total_disbursement": 1392678,
+      "total_repayment": 1894800,
+      "total_interest": 315800,
+      "avg_loan_amount": 25885,
+      "first_disbursement": "2025-03-27",
+      "last_disbursement": "2025-07-08"
+    },
+    {
+      "branch": "ALIGARH",
+      "total_loans": 59,
+      "total_amount": 1475000,
+      "total_disbursement": 1300950,
+      "total_repayment": 1770000,
+      "total_interest": 295000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-03-28",
+      "last_disbursement": "2025-07-12"
+    },
+    {
+      "branch": "HARDOI",
+      "total_loans": 41,
+      "total_amount": 1355000,
+      "total_disbursement": 1195110,
+      "total_repayment": 1626000,
+      "total_interest": 271000,
+      "avg_loan_amount": 33049,
+      "first_disbursement": "2025-04-21",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "SHAMLI",
+      "total_loans": 54,
+      "total_amount": 1345000,
+      "total_disbursement": 1186290,
+      "total_repayment": 1614000,
+      "total_interest": 269000,
+      "avg_loan_amount": 24907,
+      "first_disbursement": "2025-03-28",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "MOHALI",
+      "total_loans": 15,
+      "total_amount": 1270000,
+      "total_disbursement": 1120140,
+      "total_repayment": 1524000,
+      "total_interest": 254000,
+      "avg_loan_amount": 84667,
+      "first_disbursement": "2025-04-04",
+      "last_disbursement": "2025-06-10"
+    },
+    {
+      "branch": "MATHURA",
+      "total_loans": 45,
+      "total_amount": 1232000,
+      "total_disbursement": 1086624,
+      "total_repayment": 1478400,
+      "total_interest": 246400,
+      "avg_loan_amount": 27378,
+      "first_disbursement": "2025-04-10",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "BULANDSHAHR",
+      "total_loans": 36,
+      "total_amount": 835000,
+      "total_disbursement": 736470,
+      "total_repayment": 1002000,
+      "total_interest": 167000,
+      "avg_loan_amount": 23194,
+      "first_disbursement": "2025-04-05",
+      "last_disbursement": "2025-07-12"
+    },
+    {
+      "branch": "UTTAM NAGAR",
+      "total_loans": 5,
+      "total_amount": 390000,
+      "total_disbursement": 343980,
+      "total_repayment": 468000,
+      "total_interest": 78000,
+      "avg_loan_amount": 78000,
+      "first_disbursement": "2025-04-25",
+      "last_disbursement": "2025-05-27"
+    },
+    {
+      "branch": "KANPUR ",
+      "total_loans": 6,
+      "total_amount": 156000,
+      "total_disbursement": 137592,
+      "total_repayment": 187200,
+      "total_interest": 31200,
+      "avg_loan_amount": 26000,
+      "first_disbursement": "2025-06-16",
+      "last_disbursement": "2025-07-08"
+    },
+    {
+      "branch": "SAHARANPUR ",
+      "total_loans": 4,
+      "total_amount": 100000,
+      "total_disbursement": 88200,
+      "total_repayment": 120000,
+      "total_interest": 20000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-06-26",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "ALIGARH ",
+      "total_loans": 3,
+      "total_amount": 75000,
+      "total_disbursement": 66150,
+      "total_repayment": 90000,
+      "total_interest": 15000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-06-18",
+      "last_disbursement": "2025-06-21"
+    },
+    {
+      "branch": "HARDOI ",
+      "total_loans": 2,
+      "total_amount": 75000,
+      "total_disbursement": 66150,
+      "total_repayment": 90000,
+      "total_interest": 15000,
+      "avg_loan_amount": 37500,
+      "first_disbursement": "2025-06-19",
+      "last_disbursement": "2025-07-02"
+    },
+    {
+      "branch": "HATHRAS ",
+      "total_loans": 2,
+      "total_amount": 45000,
+      "total_disbursement": 39690,
+      "total_repayment": 54000,
+      "total_interest": 9000,
+      "avg_loan_amount": 22500,
+      "first_disbursement": "2025-06-12",
+      "last_disbursement": "2025-06-18"
+    },
+    {
+      "branch": "VARANASI ",
+      "total_loans": 1,
+      "total_amount": 30000,
+      "total_disbursement": 26460,
+      "total_repayment": 36000,
+      "total_interest": 6000,
+      "avg_loan_amount": 30000,
+      "first_disbursement": "2025-07-11",
+      "last_disbursement": "2025-07-11"
+    },
+    {
+      "branch": "MORADABAD",
+      "total_loans": 1,
+      "total_amount": 25000,
+      "total_disbursement": 22050,
+      "total_repayment": 30000,
+      "total_interest": 5000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-04-02",
+      "last_disbursement": "2025-04-02"
+    },
+    {
+      "branch": "BAREILY",
+      "total_loans": 1,
+      "total_amount": 25000,
+      "total_disbursement": 22050,
+      "total_repayment": 30000,
+      "total_interest": 5000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-06-30",
+      "last_disbursement": "2025-06-30"
+    },
+    {
+      "branch": "UNNAO ",
+      "total_loans": 1,
+      "total_amount": 25000,
+      "total_disbursement": 22050,
+      "total_repayment": 30000,
+      "total_interest": 5000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-07-02",
+      "last_disbursement": "2025-07-02"
+    },
+    {
+      "branch": "SHAMLI ",
+      "total_loans": 1,
+      "total_amount": 25000,
+      "total_disbursement": 22050,
+      "total_repayment": 30000,
+      "total_interest": 5000,
+      "avg_loan_amount": 25000,
+      "first_disbursement": "2025-07-03",
+      "last_disbursement": "2025-07-03"
+    },
+    {
+      "branch": "LUCKNOW ",
+      "total_loans": 1,
+      "total_amount": 20000,
+      "total_disbursement": 17640,
+      "total_repayment": 24000,
+      "total_interest": 4000,
+      "avg_loan_amount": 20000,
+      "first_disbursement": "2025-06-14",
+      "last_disbursement": "2025-06-14"
+    },
+    {
+      "branch": "BULANDSHAHR ",
+      "total_loans": 1,
+      "total_amount": 20000,
+      "total_disbursement": 17640,
+      "total_repayment": 24000,
+      "total_interest": 4000,
+      "avg_loan_amount": 20000,
+      "first_disbursement": "2025-07-09",
+      "last_disbursement": "2025-07-09"
+    }
+  ],
+  "collection_projections": [
+    {
+      "month": "2025-03",
+      "month_name": "March 2025",
+      "total_emis": 8,
+      "unique_loans": 8,
+      "total_demand": 90429
+    },
+    {
+      "month": "2025-04",
+      "month_name": "April 2025",
+      "total_emis": 353,
+      "unique_loans": 153,
+      "total_demand": 2288919
+    },
+    {
+      "month": "2025-05",
+      "month_name": "May 2025",
+      "total_emis": 1710,
+      "unique_loans": 561,
+      "total_demand": 4328294
+    },
+    {
+      "month": "2025-06",
+      "month_name": "June 2025",
+      "total_emis": 3425,
+      "unique_loans": 970,
+      "total_demand": 8795070
+    },
+    {
+      "month": "2025-07",
+      "month_name": "July 2025",
+      "total_emis": 5182,
+      "unique_loans": 1243,
+      "total_demand": 13795680
+    },
+    {
+      "month": "2025-08",
+      "month_name": "August 2025",
+      "total_emis": 4125,
+      "unique_loans": 1089,
+      "total_demand": 9757187
+    },
+    {
+      "month": "2025-09",
+      "month_name": "September 2025",
+      "total_emis": 2213,
+      "unique_loans": 686,
+      "total_demand": 5067552
+    },
+    {
+      "month": "2025-10",
+      "month_name": "October 2025",
+      "total_emis": 466,
+      "unique_loans": 266,
+      "total_demand": 1073305
+    }
+  ]
+}

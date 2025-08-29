@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env files
+.env
+
+# OS / System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Cloud / AI tools
+.codegeex/
+.aws/
+.android/
+
+# Logs
+*.log
