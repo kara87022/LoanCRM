@@ -1,0 +1,41 @@
+REPLIT BACKEND SETUP INSTRUCTIONS
+
+=== STEP 1: ADD ENVIRONMENT VARIABLES ===
+In Replit, click the 🔒 Secrets tab and add these:
+
+Key: DATABASE_URL
+Value: mysql://root:WRkYUjwGRmhKnmtFdolUfVFgCzHLubFn@caboose.proxy.rlwy.net:55701/railway
+
+Key: JWT_SECRET
+Value: loan_crm_secret_2024
+
+Key: PORT
+Value: 5000
+
+Key: NODE_ENV
+Value: production
+
+=== STEP 2: COPY BACKEND FILES ===
+1. Copy the contents of backend/index.js to your Replit project
+2. Copy the contents of backend/package.json to your Replit project
+
+=== STEP 3: INSTALL DEPENDENCIES ===
+In Replit terminal, run:
+npm install
+
+=== STEP 4: START SERVER ===
+In Replit terminal, run:
+npm start
+
+=== EXPECTED OUTPUT ===
+🚀 Server running on port 5000
+📡 API available at: http://localhost:5000/api
+✅ Connected to Railway MySQL database
+
+=== YOUR API ENDPOINTS ===
+- Health: https://your-repl-url.repl.co/api/health
+- Login: https://your-repl-url.repl.co/api/auth/login
+
+=== TEST LOGIN ===
+Username: admin
+Password: admin123
