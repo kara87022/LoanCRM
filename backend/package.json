@@ -1,27 +1,23 @@
 {
   "name": "loan-crm-backend",
   "version": "1.0.0",
+  "description": "Loan CRM Backend API",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "create-admin": "node create-admin.js"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.3",
-    "cookie-parser": "^1.4.7",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
     "cors": "^2.8.5",
-    "csv-parser": "^3.2.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.2",
-    "express-rate-limit": "^7.4.1",
-    "express-validator": "^7.2.0",
-    "helmet": "^8.0.0",
+    "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^2.0.2",
-    "mysql2": "^3.14.3",
-    "pdfkit": "^0.17.1",
-    "xlsx": "^0.18.5"
+    "multer": "^1.4.5-lts.1",
+    "csv-parser": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
