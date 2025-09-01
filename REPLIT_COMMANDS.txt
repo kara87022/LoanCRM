@@ -1,0 +1,22 @@
+REPLIT DEPLOYMENT COMMANDS - COPY & PASTE
+
+=== RUN COMMAND ===
+cd backend && npm install && npm start
+
+=== INSTALL COMMAND (if asked) ===
+cd backend && npm install
+
+=== START COMMAND (if asked) ===
+cd backend && npm start
+
+=== ENVIRONMENT VARIABLES (Secrets Tab) ===
+DATABASE_URL=mysql://root:WRkYUjwGRmhKnmtFdolUfVFgCzHLubFn@caboose.proxy.rlwy.net:55701/railway
+JWT_SECRET=loan_crm_secret_2024
+PORT=3000
+NODE_ENV=production
+
+=== MAIN FILE (if asked) ===
+backend/index.js
+
+=== LANGUAGE ===
+Node.js

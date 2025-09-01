@@ -18,6 +18,12 @@
     "csv-parser": "^3.0.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "create-admin": "node create-admin.js",
+    "build": "npm install"
   }
 }
