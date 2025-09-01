@@ -1,0 +1,7 @@
+loan_id,installment_number,due_date,amount,status
+LOAN001,1,2023-06-01,5000,Pending
+LOAN001,2,2023-07-01,5000,Pending
+LOAN002,1,2023-06-15,7500,Pending
+LOAN003,1,2023-06-20,3000,Pending
+LOAN003,2,2023-07-20,3000,Pending
+LOAN003,3,2023-08-20,3000,Pending

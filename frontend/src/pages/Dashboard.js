@@ -1,18 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import '../App.css';
-
-const api = axios.create({
-  baseURL: 'http://localhost:4000/api'
-});
-
-api.interceptors.request.use((config) => {
-  const token = sessionStorage.getItem('token');
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
 
 export default function Dashboard() {
   const [stats, setStats] = useState({

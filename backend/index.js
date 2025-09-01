@@ -21,12 +21,31 @@ app.use(helmet());
 app.use(cookieParser());
 app.use(cors({ credentials: true, origin: ['http://localhost:3000', 'http://localhost:3001'] }));
 app.use(bodyParser.json({ limit: '10mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 app.use('/uploads', express.static('uploads'));
 
-// Rate limiting
+// Request timeout middleware
+app.use((req, res, next) => {
+  req.setTimeout(30000, () => {
+    res.status(408).json({ error: 'Request timeout' });
+  });
+  next();
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error('Server error:', err.message);
+  if (!res.headersSent) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Rate limiting - increased limits
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 100
+  max: 1000,
+  standardHeaders: true,
+  legacyHeaders: false
 });
 app.use(limiter);
 
@@ -35,20 +54,27 @@ app.get('/', (req, res) => {
   res.send('Backend is running');
 });
 
-// MySQL DB setup
-const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
+// MySQL DB setup with connection pooling
+const db = mysql.createPool({
+  host: process.env.DB_HOST || 'localhost',
+  user: process.env.DB_USER || 'root',
+  password: process.env.DB_PASSWORD || '',
+  database: process.env.DB_NAME || 'loan_crm',
+  connectionLimit: 10,
+  acquireTimeout: 60000,
+  timeout: 60000,
+  reconnect: true
 });
 
-db.connect((err) => {
+// Test database connection
+db.getConnection((err, connection) => {
   if (err) {
-    console.error('Error connecting to MySQL database:', JSON.stringify({ error: 'Database connection failed' }));
-    process.exit(1);
+    console.error('Error connecting to MySQL database:', err.message);
+    console.log('Using default database configuration. Please check your .env file.');
+  } else {
+    console.log('Connected to MySQL database.');
+    connection.release();
   }
-  console.log('Connected to MySQL database.');
 });
 
 // Create loans_master table if not exist

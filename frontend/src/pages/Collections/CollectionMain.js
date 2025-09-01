@@ -3,6 +3,7 @@ import TotalCollection from './TotalCollection';
 import DailyCollection from './DailyCollection';
 import UpdateCollection from './UpdateCollection';
 import MarkDefault from './MarkDefault';
+import UpdateInstallment from './UpdateInstallment';
 
 export default function CollectionMain() {
   const [activeTab, setActiveTab] = useState('total');
@@ -11,6 +12,7 @@ export default function CollectionMain() {
     { id: 'total', label: 'Total Collection', component: TotalCollection },
     { id: 'daily', label: 'Daily Collection', component: DailyCollection },
     { id: 'update', label: 'Update Collection', component: UpdateCollection },
+    { id: 'update-installment', label: 'Update Installment', component: UpdateInstallment },
     { id: 'default', label: 'Mark Default', component: MarkDefault }
   ];
 

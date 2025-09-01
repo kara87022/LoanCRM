@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import CSVUploader from '../../components/common/CSVUploader';
 
 const api = axios.create({
   baseURL: 'http://localhost:4000/api'
@@ -111,9 +112,30 @@ export default function UpdateCollection() {
     <div>
       <div className="page-header">
         <h2>Update Collection</h2>
-        <button onClick={fetchPendingInstallments} className="btn btn-primary">
-          Refresh
-        </button>
+        <div className="page-actions">
+          <button onClick={fetchPendingInstallments} className="btn btn-primary">
+            Refresh
+          </button>
+        </div>
+      </div>
+      
+      <div className="card mb-4">
+        <div className="card-header">
+          <h3>Bulk Update via CSV</h3>
+        </div>
+        <div className="card-body">
+          <CSVUploader 
+            endpoint="/api/installments/upload-csv" 
+            buttonText="Upload Installments CSV"
+            onSuccess={(data) => {
+              alert(`CSV uploaded successfully! ${data.count} records processed.`);
+              fetchPendingInstallments();
+            }}
+            onError={(error) => {
+              alert(`Error uploading CSV: ${error}`);
+            }}
+          />
+        </div>
       </div>
 
       <div className="search-bar">
@@ -125,6 +147,33 @@ export default function UpdateCollection() {
           className="form-control"
         />
       </div>
+      
+      <style jsx>{`
+        .page-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+        
+        .page-actions {
+          display: flex;
+          gap: 10px;
+        }
+        
+        .mb-4 {
+          margin-bottom: 1.5rem;
+        }
+        
+        .card-header h3 {
+          margin: 0;
+          font-size: 1.2rem;
+        }
+        
+        .card-body {
+          padding: 15px;
+        }
+      `}</style>
 
       {showForm && selectedInstallment && (
         <div className="card form-card">

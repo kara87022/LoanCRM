@@ -1,0 +1,50 @@
+/* Global font size reduction overrides */
+:root {
+  --base-font-size: 12px; /* Reduce base font size from ~14px to 12px */
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  font-size: 1rem !important; /* 1rem = 12px */
+}
+
+/* Core UI elements */
+.page-header h2 { font-size: 1.1rem !important; }
+.btn { font-size: 0.85rem !important; }
+.btn-sm { font-size: 0.7rem !important; }
+.form-group label { font-size: 0.85rem !important; }
+.form-control { font-size: 0.9rem !important; }
+.table { font-size: 0.9rem !important; }
+.table th { font-size: 0.7rem !important; }
+.status-badge { font-size: 0.7rem !important; }
+.loading { font-size: 0.9rem !important; }
+.alert { font-size: 0.75rem !important; }
+
+/* Sidebar and navigation */
+.sidebar nav a { font-size: 0.85rem !important; }
+.nav-section h3 { font-size: 0.75rem !important; }
+.dropdown-arrow { font-size: 0.75rem !important; }
+.nav-dropdown a { font-size: 0.85rem !important; }
+.logout-btn { font-size: 0.8rem !important; }
+
+/* Cards and stats */
+.stat-card h3 { font-size: 1.1rem !important; }
+.stat-card p { font-size: 0.8rem !important; }
+.stat-badge { font-size: 0.75rem !important; }
+
+/* Notifications panel */
+.notification-header h3 { font-size: 0.9rem !important; }
+.notification-content h4 { font-size: 0.85rem !important; }
+.notification-content p { font-size: 0.8rem !important; }
+.notification-time { font-size: 0.7rem !important; }
+
+/* Chat panel */
+.chat-header h3 { font-size: 0.9rem !important; }
+.employee-list h4 { font-size: 0.8rem !important; }
+.employee-name { font-size: 0.8rem !important; }
+.employee-role { font-size: 0.7rem !important; }
+.message-content { font-size: 0.8rem !important; }
+.message-time { font-size: 0.7rem !important; }

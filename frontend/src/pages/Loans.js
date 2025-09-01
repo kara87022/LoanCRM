@@ -1,22 +1,17 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useTranslation } from '../contexts/TranslationContext';
-import axios from 'axios';
+import api from '../services/api';
 import '../App.css';
-import { formatCSVDate } from '../utils/date';
 import { useNavigate } from 'react-router-dom';
 
-// Configure axios with auth headers
-const api = axios.create({
-  baseURL: 'http://localhost:4000/api'
-});
+// Simple translation function
+const t = (key) => key;
 
-api.interceptors.request.use((config) => {
-  const token = sessionStorage.getItem('token');
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
+// Simple date formatter
+const formatCSVDate = (dateStr) => {
+  if (!dateStr) return '';
+  const date = new Date(dateStr);
+  return date.toLocaleDateString('en-GB');
+};
 
 export default function Loans() {
   const { t } = useTranslation();
